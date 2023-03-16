@@ -1,7 +1,7 @@
 import React from "react";
-import classes from "./UserDetails.module.css";
+import classes from "./Details.module.css";
 
-function UserDetails(props) {
+function Details(props) {
   const data = props.item;
   if (Object.keys(data).length === 0 && data.constructor === Object) return;
 
@@ -64,4 +64,4 @@ function UserDetails(props) {
   );
 }
 
-export default UserDetails;
+export default Details;

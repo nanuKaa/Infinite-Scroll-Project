@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { getUserInfo } from "../service/UserService";
 import UserList from "./UserList";
 import Spinner from "../Utils/Spinner";
-import UserDetails from "./UserDetails";
+import UserDetails from "./Details";
 import classes from "./UserInfo.module.css";
 
 const initialState = { user: {}, friends: [], page: 1 };
