@@ -1,5 +1,5 @@
 import React from "react";
-import ListItem from "./ListItem";
+import Item from "./Item";
 import classes from "./UserList.module.css";
 
 function UserList(props) {
@@ -15,7 +15,7 @@ function UserList(props) {
     <div className={classes.list}>
       {props.items.map((user) => {
         return (
-          <ListItem
+          <Item
             key={user.id}
             id={user.id}
             img={`${user.imageUrl}?v=${user.id}`}

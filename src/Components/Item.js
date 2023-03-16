@@ -1,12 +1,12 @@
 import React from "react";
-import classes from "./ListItem.module.css";
+import classes from "./Item.module.css";
 import { Link } from "react-router-dom";
 
-function ListItem(props) {
+function Item(props) {
   return (
-    <div className={classes.listItemSection}>
+    <div className={classes.itemSection}>
       <Link to={`/user/${props.id}`}>
-        <div className={classes.listItem}>
+        <div className={classes.item}>
           <img src={props.img} alt={props.name} />
           <div className={classes.info}>
             <div className={classes.fullName}>
@@ -21,4 +21,4 @@ function ListItem(props) {
   );
 }
 
-export default ListItem;
+export default Item;

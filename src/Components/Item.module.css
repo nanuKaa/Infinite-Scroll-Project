@@ -1,16 +1,16 @@
-.listItemSection {
+.itemSection {
   height: 300px;
   width: 25%;
   display: inline-block;
 }
 
-.listItemSection img {
+.itemSection img {
   height: 70%;
   width: 100%;
   background-position: center;
 }
 
-.listItemSection .info {
+.itemSection .info {
   height: 30%;
   padding: 2%;
 }
@@ -19,13 +19,13 @@
   font-weight: bold;
 }
 
-.listItem {
+.item {
   margin: 3%;
   border: 1px solid grey;
   cursor: pointer;
 }
 
-.listItemSection a {
+.itemSection a {
   text-decoration: none;
   color: black;
 }
