@@ -1,0 +1,31 @@
+.listItemSection {
+  height: 300px;
+  width: 25%;
+  display: inline-block;
+}
+
+.listItemSection img {
+  height: 70%;
+  width: 100%;
+  background-position: center;
+}
+
+.listItemSection .info {
+  height: 30%;
+  padding: 2%;
+}
+
+.fullName {
+  font-weight: bold;
+}
+
+.listItem {
+  margin: 3%;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.listItemSection a {
+  text-decoration: none;
+  color: black;
+}

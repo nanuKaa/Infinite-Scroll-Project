@@ -1,0 +1,60 @@
+.info {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 8%;
+}
+
+.info span {
+  text-decoration: underline;
+}
+
+.info img {
+  width: 25%;
+}
+
+.user {
+  margin-bottom: 3%;
+}
+
+.fullName {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.title {
+  font-style: italic;
+}
+
+.mainInfo {
+  border: 2px solid grey;
+  position: relative;
+  padding: 2% 1%;
+  width: 55%;
+  margin: 1% 0;
+}
+
+.mainInfo p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(50%, -50%);
+  background-color: #fff;
+}
+
+.secondary {
+  width: 15%;
+  border: 2px solid grey;
+  position: relative;
+  padding: 1% 1%;
+}
+
+.secondary p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(50%, -50%);
+  background-color: #fff;
+}
